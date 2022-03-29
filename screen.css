@@ -1,0 +1,48 @@
+
+html {
+    background-image: url(./images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body {
+    background-color: rgba(40, 40, 40, 0.95);
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+
+}
+
+
+
+p {
+    color: #ebdbb2;
+}
+h1 {
+    color : #ebdbb2;
+}
+
+h2 {
+    color : #ebdbb2;
+}
+
+h3 { 
+    color : #ebdbb2;
+}
+
+a { color : #458588}
+
+ul { 
+    color: #ebdbb2;
+}
+
+#contact { 
+    position: absolute;
+    right: 50px;
+    margin-top: -80px;
+}
+
+#Professional-summary {
+    position: relative;
+    margin-top : 50px;
+}
