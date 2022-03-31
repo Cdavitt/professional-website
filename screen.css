@@ -3,6 +3,8 @@ html {
     background-image: url(./images/background.png);
     background-size: cover;
     background-repeat: no-repeat;
+    <link rel = "stylesheet" href = "https://fonts.googleapis.com/css?family=Fira+Code">
+    font-family: 'Fira Code', monospace;
 }
 
 body {
@@ -17,6 +19,7 @@ body {
     margin-left: 50px;
     margin-bottom: 200px;
     border: 2px solid #ebdbb2;
+    font-family: 'Fira Code', monospace;
 }
 img {
 	width: 40px;
@@ -49,7 +52,15 @@ ul {
 #contact { 
     position: absolute;
     right: 50px;
-    margin-top: -80px;
+    margin-top: -90px;
+}
+
+#contact > img {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255);
+    position: absolute;
+    top: 20px;
 }
 
 #Professional-summary {
