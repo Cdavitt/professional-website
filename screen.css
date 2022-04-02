@@ -48,11 +48,14 @@ a { color : #458588}
 ul { 
     color: #ebdbb2;
 }
-
+body > nav:nth-child(1) > ul:nth-child(1) {
+	list-style-type: none;
+	display: inline;
+}
 #contact { 
     position: absolute;
     right: 50px;
-    margin-top: -90px;
+    margin-top: -130px;
 }
 
 #contact > img {
@@ -66,4 +69,27 @@ ul {
 #Professional-summary {
     position: relative;
     margin-top : 50px;
+}
+
+body > nav:nth-child(1) > ul:nth-child(1) > li:nth-child(1) {
+    position: relative;
+    background-color: rgba(40, 40, 40, 1);
+    border-radius: 5px;
+    border: 2px solid #ebdbb2;
+    color: #ebdbb2;
+    width: 60px;
+}
+
+body > nav:nth-child(1) > ul:nth-child(1) > li:nth-child(2) {
+    position: relative;
+    margin-top: -24px;
+    margin-left: 70px;
+    color : #ebdbb2;
+    border-radius: 5px;
+    border: 2px solid #ebdbb2;
+    width: 80px;
+
+}
+a:link  {
+    color :#ebdbb2;
 }
