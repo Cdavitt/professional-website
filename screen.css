@@ -27,27 +27,12 @@ img {
 	background-color: rgba(255, 255, 255);
 }
 
-
-p {
+* {
     color: #ebdbb2;
-}
-h1 {
-    color : #ebdbb2;
-}
-
-h2 {
-    color : #ebdbb2;
-}
-
-h3 { 
-    color : #ebdbb2;
 }
 
 a { color : #458588}
 
-ul { 
-    color: #ebdbb2;
-}
 body > nav:nth-child(1) > ul:nth-child(1) {
 	list-style-type: none;
 	display: inline;
